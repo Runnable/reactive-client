@@ -1,0 +1,24 @@
+{
+  "name": "reactive-client",
+  "version": "1.0.0",
+  "description": "reactive demo. parses data",
+  "main": "index.js",
+  "dependencies": {
+    "joi": "^9.0.4",
+    "ponos": "^5.8.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "LOG_LEVEL=fatal node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Runnable/reactive-client.git"
+  },
+  "author": "anandkumarpatel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Runnable/reactive-client/issues"
+  },
+  "homepage": "https://github.com/Runnable/reactive-client#readme"
+}
