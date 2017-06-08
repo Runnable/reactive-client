@@ -11,7 +11,7 @@ const commentReceivedSchema = joi.object({
 
 // Worker and publisher
 const ponos = new Ponos.Server({
-  name: process.env.APP_NAME || Math.random() + '',
+  name: process.env.APP_NAME || require('os').hostname() || Math.random() + '',
   rabbitmq: {
     hostname: process.env.RABBITMQ_HOSTNAME || 'reactive.runnable.com'
   },
