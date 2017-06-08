@@ -3,6 +3,16 @@ A client app for reactive-demo
 
 
 ## Usage
+### Docker
+`docker run -it runnable/reactive-client`
+
+### Node.js
+1. `git clone git@github.com:Runnable/reactive-client.git`
+2. `cd reactive-client`
+3. `npm install`
+4. `npm start`
+
+## Editing
 The function exported in `index.js` runs when our system receives a comment.
 Do anything you want with it!
 
